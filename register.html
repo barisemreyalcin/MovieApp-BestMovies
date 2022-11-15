@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register Page</title>
+  </head>
+  <body>
+    <header>
+      <h1>Please, Fill The Form Below:</h1>
+    </header>
+    <hr />
+    <section id="account_info">
+      <h2>Account Information:</h2>
+      <form action="register.php">
+        <table>
+          <tr>
+            <td style="width: 150px">
+              <label for="username">Username:</label>
+            </td>
+            <td></td>
+            <td>
+              <input type="text" placeholder="Enter your username" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="mail">Email:</label>
+            </td>
+            <td></td>
+            <td>
+              <input
+                type="email"
+                name=""
+                id="mail"
+                placeholder="Enter your email"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="pword">Password:</label>
+            </td>
+            <td></td>
+            <td>
+              <input
+                type="password"
+                name=""
+                id="pword"
+                placeholder="Enter your password"
+              />
+            </td>
+          </tr>
+        </table>
+      </form>
+    </section>
+    <section id="personal_info">
+      <h2>Personal Information:</h2>
+      <form action="register.php">
+        <table>
+          <tr>
+            <td style="width: 150px">
+              <label for="name">Name:</label>
+            </td>
+            <td></td>
+            <td>
+              <input type="text" id="name" placeholder="Enter your name" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="surname">Surname:</label>
+            </td>
+            <td></td>
+            <td>
+              <input
+                type="text"
+                id="surname"
+                placeholder="Enter your surname"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="city">City:</label>
+            </td>
+            <td></td>
+            <td>
+              <select name="" id="city">
+                <option value="">Choose</option>
+                <option value="01">Adana</option>
+                <option value="06">Ankara</option>
+                <option value="27">Gaziantep</option>
+                <option value="31">Hatay</option>
+                <option value="34">İstanbul</option>
+                <option value="35">İzmir</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>Gender:</td>
+            <td></td>
+            <td>
+              <input type="radio" name="gender" id="female" />
+              <label for="female">Female</label>
+              <input type="radio" name="gender" id="male" />
+              <label for="male">Male</label>
+              <input type="radio" name="gender" id="other" />
+              <label for="other">Other</label>
+            </td>
+          </tr>
+          <tr>
+            <td>Favorite Genres:</td>
+            <td></td>
+            <td>
+              <input type="checkbox" name="" id="action" />
+              <label for="action">Action</label>
+              <input type="checkbox" name="" id="comedy" />
+              <label for="comedy">Comedy</label>
+              <input type="checkbox" name="" id="drama" />
+              <label for="drama">Drama</label>
+              <input type="checkbox" name="" id="horror" />
+              <label for="horror">Horror</label>
+              <input type="checkbox" name="" id="other2" />
+              <label for="other2">Other</label>
+            </td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td>
+              <button type="submit">Submit</button>
+              <button type="reset">Reset</button>
+            </td>
+          </tr>
+        </table>
+      </form>
+    </section>
+    <hr />
+  </body>
+</html>
